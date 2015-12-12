@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{1E30B585-4FCF-EA5B-EDBC-9FAEBF7A93C3}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "LudumDare34",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
