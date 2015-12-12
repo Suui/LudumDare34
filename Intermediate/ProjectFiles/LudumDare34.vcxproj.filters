@@ -1,46 +1,79 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\LudumDare34.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{1610C354-4C5A-44D5-81D6-020984D02E35}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\LudumDare34.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\LudumDare34Editor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{F778C4A3-542E-4F9D-9BE3-0A262CE973E6}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\LudumDare34">
-			<UniqueIdentifier>{F5CC0ECC-6AF6-48B8-822A-7229D9F46ADF}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\LudumDare34\LudumDare34.Build.cs">
-			<Filter>Source\LudumDare34</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\LudumDare34\LudumDare34.cpp">
-			<Filter>Source\LudumDare34</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\LudumDare34\LudumDare34.h">
-			<Filter>Source\LudumDare34</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\LudumDare34\LudumDare34GameMode.cpp">
-			<Filter>Source\LudumDare34</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\LudumDare34\LudumDare34GameMode.h">
-			<Filter>Source\LudumDare34</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\LudumDare34.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{3173E995-C03C-45B0-8CD7-59A6C90D3A2B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LudumDare34.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\LudumDare34Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{208C1D55-8A89-48E8-9E7A-29C7B86B2758}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\LudumDare34">
+      <UniqueIdentifier>{4C9F4F65-75B6-471D-B561-E2DD7FF37E01}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LudumDare34\LudumDare34.Build.cs">
+      <Filter>Source\LudumDare34</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\LudumDare34\LudumDare34.cpp">
+      <Filter>Source\LudumDare34</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LudumDare34\LudumDare34.h">
+      <Filter>Source\LudumDare34</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LudumDare34\LudumDare34GameMode.cpp">
+      <Filter>Source\LudumDare34</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LudumDare34\LudumDare34GameMode.h">
+      <Filter>Source\LudumDare34</Filter>
+    </ClInclude>
+    <Filter Include="Source\LudumDare34\TP_SideScroller">
+      <UniqueIdentifier>{CF9ED63C-6F63-440D-B865-CD64E9453DE3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LudumDare34\TP_SideScroller\TP_SideScrollerCharacter.cpp">
+      <Filter>Source\LudumDare34\TP_SideScroller</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LudumDare34\TP_SideScroller\TP_SideScrollerCharacter.h">
+      <Filter>Source\LudumDare34\TP_SideScroller</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LudumDare34\TP_SideScroller\TP_SideScrollerGameMode.cpp">
+      <Filter>Source\LudumDare34\TP_SideScroller</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LudumDare34\TP_SideScroller\TP_SideScrollerGameMode.h">
+      <Filter>Source\LudumDare34\TP_SideScroller</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\LudumDare34\MainCharacter.h">
+      <Filter>Source\LudumDare34</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LudumDare34\CharacterController.h">
+      <Filter>Source\LudumDare34</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\LudumDare34\MainCharacter.cpp">
+      <Filter>Source\LudumDare34</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LudumDare34\CharacterController.cpp">
+      <Filter>Source\LudumDare34</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

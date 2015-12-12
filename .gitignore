@@ -16,7 +16,7 @@
 
 ### Suui ###
 Binaries/*
-Content/*
+#Content/*
 Saved/*
 *.sdf
 *.opensdf
